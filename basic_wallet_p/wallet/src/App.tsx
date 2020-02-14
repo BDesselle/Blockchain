@@ -8,7 +8,7 @@ import Background from "./components/Background";
 
 const App: React.FC = () => {
   const [chain, setChain] = useState<TChain>([]);
-  const [id, setId] = useState<string>("Dan");
+  const [id, setId] = useState<string>("Brandon");
   const [selected, setSelected] = useState<number>(0);
 
   useEffect(() => {
